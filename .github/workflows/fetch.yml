@@ -1,0 +1,26 @@
+name: Dateien abholen
+on:
+  push:
+    paths: ['inbox/*.url']
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download
+        run: |
+          shopt -s nullglob
+          for f in inbox/*.url; do
+            out="${f%.url}"
+            curl -fsSL "$(cat "$f")" -o "$out"
+            git rm -q "$f"
+            git add "$out"
+          done
+      - name: Commit
+        run: |
+          git config user.name "missionwissen-bot"
+          git config user.email "missionwissensocial@users.noreply.github.com"
+          git commit -m "Dateien abgeholt" || exit 0
+          git push
