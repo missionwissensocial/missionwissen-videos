@@ -1,0 +1,123 @@
+1
+00:00:00,000 --> 00:00:01,292
+Ein Auto, das springt,
+
+2
+00:00:01,292 --> 00:00:02,153
+sich überschlägt und über
+
+3
+00:00:02,153 --> 00:00:03,633
+andere Autos hüpft?
+
+4
+00:00:03,754 --> 00:00:04,554
+Genau das hat Tesla
+
+5
+00:00:04,554 --> 00:00:05,785
+am fünfzehnten Oktober in
+
+6
+00:00:05,785 --> 00:00:06,400
+Texas mit dem neuen
+
+7
+00:00:06,400 --> 00:00:07,817
+Roadster gezeigt.
+
+8
+00:00:07,937 --> 00:00:10,337
+Der Trick: Kaltgas-Düsen, entwickelt
+
+9
+00:00:10,337 --> 00:00:11,571
+mit SpaceX.
+
+10
+00:00:11,692 --> 00:00:12,769
+Druckluft aus Tanks im
+
+11
+00:00:12,769 --> 00:00:13,662
+ganzen Auto schießt mit
+
+12
+00:00:13,662 --> 00:00:14,772
+voller Wucht heraus,
+
+13
+00:00:14,891 --> 00:00:15,938
+wie bei einer Rakete,
+
+14
+00:00:15,938 --> 00:00:17,295
+nur ohne Feuer.
+
+15
+00:00:17,414 --> 00:00:18,399
+In der Thrust-Version soll
+
+16
+00:00:18,399 --> 00:00:19,292
+der Roadster so laut
+
+17
+00:00:19,292 --> 00:00:20,030
+Tesla in unter einer
+
+18
+00:00:20,030 --> 00:00:20,984
+Sekunde auf knapp hundert
+
+19
+00:00:20,984 --> 00:00:22,710
+Kilometer pro Stunde kommen.
+
+20
+00:00:22,830 --> 00:00:24,123
+Aber: Die Version mit
+
+21
+00:00:24,123 --> 00:00:25,015
+den meisten Düsen gibt
+
+22
+00:00:25,015 --> 00:00:26,280
+es nur auf Einladung,
+
+23
+00:00:26,399 --> 00:00:26,891
+und sie ist nicht
+
+24
+00:00:26,891 --> 00:00:28,556
+für die Straße zugelassen.
+
+25
+00:00:28,676 --> 00:00:29,414
+Einen Preis gibt es
+
+26
+00:00:29,414 --> 00:00:30,830
+noch nicht, reservieren kostet
+
+27
+00:00:30,830 --> 00:00:32,433
+ab fünfzigtausend Dollar.
+
+28
+00:00:32,554 --> 00:00:33,661
+Ausliefern will Elon Musk
+
+29
+00:00:33,661 --> 00:00:35,448
+ab 2028.
+
+30
+00:00:35,569 --> 00:00:36,554
+Versprochen war der Roadster
+
+31
+00:00:36,554 --> 00:00:38,139
+übrigens schon für 2020.
