@@ -1,0 +1,123 @@
+1
+00:00:00,000 --> 00:00:00,862
+Wie viel Zeit sparst
+
+2
+00:00:00,862 --> 00:00:01,538
+du wirklich, wenn du
+
+3
+00:00:01,538 --> 00:00:02,279
+rast?
+
+4
+00:00:02,399 --> 00:00:03,757
+Weniger, als du denkst.
+
+5
+00:00:03,876 --> 00:00:05,076
+Fahrzeit ist Strecke geteilt
+
+6
+00:00:05,076 --> 00:00:06,400
+durch Tempo und diese
+
+7
+00:00:06,400 --> 00:00:07,817
+Kurve wird immer flacher.
+
+8
+00:00:07,937 --> 00:00:08,984
+Auf zehn Kilometern bringen
+
+9
+00:00:08,984 --> 00:00:10,122
+fünfzig statt vierzig schon
+
+10
+00:00:10,122 --> 00:00:11,510
+hundertachtzig Sekunden.
+
+11
+00:00:11,631 --> 00:00:13,414
+Hundertdreißig statt achtzig also
+
+12
+00:00:13,414 --> 00:00:15,262
+fünfzig Stundenkilometer mehr nur
+
+13
+00:00:15,262 --> 00:00:16,679
+hundertdreiundsiebzig.
+
+14
+00:00:16,800 --> 00:00:18,585
+Ein Beispiel: fünfzig Kilometer
+
+15
+00:00:18,585 --> 00:00:19,818
+Autobahn zur Arbeit.
+
+16
+00:00:19,937 --> 00:00:20,800
+Frei sind davon vielleicht
+
+17
+00:00:20,800 --> 00:00:22,030
+dreißig, der Rest ist
+
+18
+00:00:22,030 --> 00:00:23,388
+Baustelle und Stau.
+
+19
+00:00:23,507 --> 00:00:25,015
+Hundertsechzig statt hundertdreißig spart
+
+20
+00:00:25,015 --> 00:00:26,461
+dort gerade mal hundertsechsundfünfzig
+
+21
+00:00:26,461 --> 00:00:27,571
+Sekunden.
+
+22
+00:00:27,692 --> 00:00:28,492
+Auf der Landstraße mit
+
+23
+00:00:28,492 --> 00:00:29,414
+Kurven und Treckern ist
+
+24
+00:00:29,414 --> 00:00:30,588
+es noch weniger:
+
+25
+00:00:30,707 --> 00:00:32,554
+zehn gerade Kilometer, hundertzwanzig
+
+26
+00:00:32,554 --> 00:00:34,834
+statt hundert sechzig Sekunden.
+
+27
+00:00:34,954 --> 00:00:35,661
+Und erlaubt sind dort
+
+28
+00:00:35,661 --> 00:00:37,048
+sowieso nur hundert.
+
+29
+00:00:37,168 --> 00:00:37,814
+Je schneller du schon
+
+30
+00:00:37,814 --> 00:00:38,923
+bist, desto weniger bringt
+
+31
+00:00:38,923 --> 00:00:40,045
+jeder Stundenkilometer mehr.
