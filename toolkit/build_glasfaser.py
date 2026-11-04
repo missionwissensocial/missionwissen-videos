@@ -19,23 +19,25 @@ POSES = {"neutral": {}, "zeigt": dict(ra="point", tilt=-3), "winkt": dict(eye="h
 CH = ["", "", "", "", ""]
 HOOK = 'Warum hat <span style="color:#19C6B4">Frankreich</span> Glasfaser – und wir nicht?'
 B = [
- ("p1", 0, HOOK, "*Frankreich* hat *fast* *überall* *Glasfaser.*", "staunt"),
- ("p2", 0, HOOK, "Und *du?* *Wahrscheinlich* noch *Kupfer.*", "staunt"),
- ("p3", 0, HOOK, "Wie *schaffen* die *Nachbarn* das? Die *Zahl* am *Ende* tut *weh.*", None),
- ("p4", 1, "", "Der *Trick:* *nicht* *neu* *graben.* Frankreich *nutzt,* was *schon* *da* ist.", None),
- ("p5", 1, "", "*Alte* *Rohre* unter der *Straße.*", None),
- ("p6", 1, "", "Und *Masten* am *Straßenrand.*", None),
- ("p7", 1, "", "Das *Kabel* wird einfach *durchgezogen.* Oder *aufgehängt.*", None),
- ("p8", 2, "", "Und bei *uns?* Oft wird *neu* *gegraben.*", None),
- ("p9", 2, "", "Der *Haken?* *Graben* ist das *Teuerste.*", None),
- ("p10", 3, "", "*Trick* *Nummer* *zwei:* Frankreich *schaltet* das *Kupfernetz* *ab.*", None),
- ("p11", 3, "", "Bis *zweitausenddreißig* ist *Schluss* mit *DSL.*", None),
- ("p12", 3, "", "Wer *Internet* will, braucht *Glasfaser.*", None),
- ("p13", 2, "", "Bei *uns* wurde das *Kupfer* *aufgemotzt.* Viele *denken:* *reicht* *doch.*", None),
- ("p14", 4, "", "Das *Ergebnis?*", None),
- ("p15", 4, "", "*Frankreich:* *fünfundneunzig* *Prozent.* *Deutschland:* *zweiundsechzig* *Prozent.*", None),
- ("p16", 4, "", "*Immerhin:* Wir *holen* *gerade* *auf.*", None),
- ("p17", 4, "", "Wie ist es bei *dir?*", None),
+ ("p1", 0, HOOK, "In *Frankreich* kann fast *jede* *Wohnung* *Glasfaser* bekommen – also *superschnelles* *Internet* bis ins *Haus.*", "staunt"),
+ ("p2", 0, HOOK, "Bei *uns* läuft das Internet *meist* noch über die *alte* *Telefonleitung* aus *Kupfer.*", "staunt"),
+ ("p3", 0, HOOK, "Wie *groß* Frankreichs *Vorsprung* ist, zeige ich dir am *Ende.*", None),
+ ("p4", 1, "", "Wie *schafft* Frankreich das? *Erstens:* Dort wird *kaum* *gegraben.*", None),
+ ("p5", 1, "", "Denn *Graben* ist beim *Ausbau* das *Teuerste.*", None),
+ ("p6", 1, "", "Das neue *Kabel* wird durch *alte* *Telefonrohre* unter der *Straße* *gezogen*", None),
+ ("p7", 1, "", "– oder an *Masten* *aufgehängt.*", None),
+ ("p8", 2, "", "Bei *uns* hängen Kabel nur *selten* an *Masten,* und in *alten* *Rohren* ist oft *kein* *Platz* mehr.", None),
+ ("p9", 2, "", "Also wird *meist* *neu* *gegraben.*", None),
+ ("p10", 3, "", "*Zweitens:* Frankreich *schaltet* die alte *Kupferleitung* bis *zweitausenddreißig* *ab.*", None),
+ ("p11", 3, "", "Wer dann zu *Hause* Internet will, braucht *Glasfaser.*", None),
+ ("p12", 2, "", "Bei *uns* wurde die *Kupferleitung* stattdessen *schneller* gemacht – mit *neuer* *Technik* in den *grauen* *Kästen* am *Straßenrand.*", None),
+ ("p13", 3, "", "*Glasfaser* schafft zwar ein *Vielfaches.*", None),
+ ("p14", 2, "", "Aber *vielen* *reicht* das *Kupfer* – sie bestellen *keinen* *Glasfaseranschluss,* selbst wenn er *möglich* ist.", None),
+ ("p15", 2, "", "Und *ohne* *Kunden* lohnt sich der *Ausbau* für die *Anbieter* *weniger.*", None),
+ ("p16", 4, "", "Das *Ergebnis:*", None),
+ ("p17", 4, "", "In *Frankreich* liegt Glasfaser für *fünfundneunzig* *Prozent* aller *Wohnungen* und *Büros* bereit.", None),
+ ("p18", 4, "", "Bei *uns* erst für *zweiundsechzig* *Prozent.*", None),
+ ("p19", 4, "", "*Immerhin:* Vor *einem* *Jahr* waren es bei uns erst *dreiundfünfzig* *Prozent.*", None),
 ]
 
 # word start times from ElevenLabs Scribe transcript (original speed), dashes excluded
@@ -156,12 +158,12 @@ FRX, FRY = round(WX(0.7), 1), round(WY(47.4), 1)
 DEX, DEY = round(WX(9.3), 1), round(WY(50.6), 1)
 MAPC = (540, 556)
 cam = [
- ("p1", -0.2, MAPC[0], MAPC[1], 1.0, 0), ("p4", -0.2, MAPC[0] - 4, MAPC[1] + 6, 1.08, 0),
- ("p4@nicht", 0.25, FRX - 2.6, FRY - 0.9, 180, 60), ("p8", -0.25, FRX + 2.6, FRY - 0.9, 180, 60),
- ("p8@uns", 0.0, (FRX + DEX) / 2, (FRY + DEY) / 2, 2.3, 26), ("p8@neu", -0.05, DEX - 3.0, DEY - 0.9, 180, 60),
- ("p10", -0.2, DEX + 1.6, DEY - 0.9, 180, 60), ("p10@Frankreich", 0.15, MAPC[0], MAPC[1], 1.0, 0),
- ("p13", -0.1, MAPC[0], MAPC[1], 1.0, 0), ("p13@Kupfer", 0.0, WX(10.4), WY(51.2) + 40, 1.55, 0),
- ("p14", 0.0, WX(10.4), WY(51.2) + 40, 1.55, 0), ("p14@Ergebnis", 0.2, MAPC[0], MAPC[1] - 10, 1.0, 0), ("end", 0, MAPC[0], MAPC[1] - 10, 1.0, 0),
+ ("p1", -0.2, MAPC[0], MAPC[1], 1.0, 0), ("p4@Erstens", -0.5, MAPC[0] - 4, MAPC[1] + 6, 1.08, 0),
+ ("p4@kaum", 0.0, FRX - 2.6, FRY - 0.9, 180, 60), ("p8", 0.1, FRX + 2.6, FRY - 0.9, 180, 60),
+ ("p8@Kabel", 0.0, (FRX + DEX) / 2, (FRY + DEY) / 2, 2.3, 26), ("p8@selten", 0.3, DEX - 3.0, DEY - 0.9, 180, 60),
+ ("p9", 0.0, DEX - 2.6, DEY - 0.9, 180, 60), ("p10", -0.3, DEX + 1.6, DEY - 0.9, 180, 60), ("p10@Frankreich", 0.1, MAPC[0], MAPC[1], 1.0, 0),
+ ("p12", -0.1, MAPC[0], MAPC[1], 1.0, 0), ("p12@Kupferleitung", 0.0, WX(10.4), WY(51.2) + 40, 1.55, 0),
+ ("p16", -0.2, WX(10.4), WY(51.2) + 40, 1.55, 0), ("p16@Ergebnis", 0.2, MAPC[0], MAPC[1] - 10, 1.0, 0), ("end", 0, MAPC[0], MAPC[1] - 10, 1.0, 0),
 ]
 # --- Karte ---
 def path(d, fill, stroke, cls="ol", extra=""): return f'<path class="{cls}" d="{d}" fill="{fill}" stroke="{stroke}" stroke-linejoin="round" {extra}/>'
@@ -182,6 +184,8 @@ def street(cx, cy, kind):
         s += "".join(f'<rect x="{cx+x-0.16}" y="{cy+0.12}" width="0.32" height="0.32" rx="0.04" fill="#C9CCD3" stroke="#2B2D35" stroke-width="0.025"/>' for x in (-6, -2, 2, 6))
         s += f'<path id="dcab" d="M{cx-11} {cy+0.28} H{cx+11}" stroke="{TQ}" stroke-width="0.12" fill="none" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>'
     else:
+        s += "".join(f'<path d="M{cx-11} {cy+0.24+o}" H{cx+11}" stroke="#7A7F8C" stroke-width="0.05" fill="none"/>'.replace('" H',' H') for o in (-0.06, 0, 0.06))
+        s += f'<path id="ductde" d="M{cx-11} {cy+0.24} H{cx+11}" stroke="#E5484D" stroke-width="0.24" stroke-opacity="0" fill="none"/>'
         s += f'<path id="trench" d="M{cx-11} {cy+0.32} H{cx+11}" stroke="#8B5A2B" stroke-width="0.26" stroke-linecap="round" fill="none" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>'
         s += f'<path id="trench2" d="M{cx-11} {cy+0.32} H{cx+11}" stroke="#5E3A18" stroke-width="0.1" stroke-linecap="round" fill="none" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>'
     return f'<g id="st_{kind}" style="opacity:0">{s}</g>'
@@ -241,38 +245,55 @@ def glab(lon, lat, inner, i, o, d=0, idd=""):
 def maplab(t, col): return f'<span class="mono lab" style="color:{col};border-color:{col}">{t}</span>'
 FLAG_FR = '<span class="flag"><i style="background:#2B4AA0"></i><i style="background:#fff"></i><i style="background:#D33A3A"></i></span>'
 FLAG_DE = '<span class="flag v"><i style="background:#111"></i><i style="background:#D33A3A"></i><i style="background:#F2C230"></i></span>'
-geo = (glab(2.2, 47.9, maplab("FRANKREICH", TQD), "p1", "p4@nicht", -0.6)
-       + glab(10.2, 52.6, maplab("DEUTSCHLAND", CU), "p1", "p4@nicht", -0.6)
-       + glab(10.4, 51.5, '<div class="mono" style="font-size:30px;font-weight:800;color:#fff;background:' + CU + ';border-radius:10px;padding:6px 14px;white-space:nowrap">KUPFER</div>', "p2@Kupfer", "p3@Zahl", 0)
-       + glab(2.6, 46.6, f'<div class="col"><div class="mono" style="font-size:26px;font-weight:800;color:{TQD};letter-spacing:.08em">KUPFER-AUS</div><div class="huge" id="y30" style="font-size:190px;color:{TQD}">2023</div><div class="mono" style="font-size:28px;font-weight:800;color:{TQD};margin-top:-6px;white-space:nowrap">SCHLUSS MIT DSL</div></div>', "p11", "p12@Glasfaser", 0.0, "bigyr")
-       + glab(2.6, 46.5, f'<div class="col">{FLAG_FR}<div class="huge num" style="color:{TQD}">{cnt(95, "p15@fünfundneunzig", 0, -0.1)}<span class="pc">%</span></div></div>', "p15@fünfundneunzig", "end", -0.15)
-       + glab(10.4, 51.0, f'<div class="col">{FLAG_DE}<div class="huge num" style="color:{GR}">{cnt(62, "p15@zweiundsechzig", 0, -0.1)}<span class="pc">%</span></div></div>', "p15@zweiundsechzig", "end", -0.15))
+geo = (glab(2.2, 47.9, maplab("FRANKREICH", TQD), "p1", "p4@Erstens", -0.6)
+       + glab(10.2, 52.6, maplab("DEUTSCHLAND", CU), "p1", "p4@Erstens", -0.6)
+       + glab(10.4, 51.5, '<div class="mono" style="font-size:30px;font-weight:800;color:#fff;background:' + CU + ';border-radius:10px;padding:6px 14px;white-space:nowrap">KUPFER = ALTE TELEFONLEITUNG</div>', "p2@Kupfer", "p3@Ende", 0)
+       + glab(2.6, 46.6, f'<div class="col"><div class="mono" style="font-size:26px;font-weight:800;color:{TQD};letter-spacing:.08em">KUPFER-AUS</div><div class="huge" id="y30" style="font-size:190px;color:{TQD}">2023</div><div class="mono" style="font-size:28px;font-weight:800;color:{TQD};margin-top:-6px;white-space:nowrap">SCHLUSS MIT DSL</div></div>', "p10@zweitausenddreißig", "p11@Glasfaser", -0.1, "bigyr")
+       + glab(2.6, 46.5, f'<div class="col">{FLAG_FR}<div class="huge num" style="color:{TQD}">{cnt(95, "p17@fünfundneunzig", 0, -0.3)}<span class="pc">%</span></div></div>', "p17@fünfundneunzig", "end", -0.15)
+       + glab(10.4, 51.0, f'<div class="col">{FLAG_DE}<div class="huge num" style="color:{GR}">{cnt(62, "p18@zweiundsechzig", 0, -0.3)}<span class="pc">%</span></div></div>', "p18@zweiundsechzig", "end", -0.15))
 stage.append(f'<div id="geol">{geo}</div>')
 # --- Overlays (höchstens eines gleichzeitig) ---
 def chip_(txt, i, o, col=PURS, sfx="marker", y=1150, fs=30, d=0):
     return el(f'<div class="chip mono row" style="font-size:{fs}px;gap:12px;padding:12px 22px;border-color:{col};color:{col};background:rgba(255,255,255,.97);white-space:nowrap">{txt}</div>', 80, y, A(i, o, d) + f' data-sfx="{sfx}"', 920, CENTER)
-stage.append(chip_(f'{FLAG_FR}&nbsp;?? %&nbsp;&nbsp;<span style="color:#8A8F99">vs.</span>&nbsp;&nbsp;{FLAG_DE}&nbsp;?? %&nbsp;&nbsp;<span style="font-size:22px;color:#8A8F99">AM ENDE</span>', "p3@Zahl", "p4@nicht", GR, "glass", 1130, 36))
-stage.append(chip_("TRICK 1: NICHT NEU GRABEN", "p4@Trick", "p5", TQD, "marker", 420))
-stage.append(chip_("ALTE ROHRE UNTER DER STRASSE", "p5@Rohre", "p6", GR, "marker", 420))
-stage.append(chip_("MASTEN AM STRASSENRAND", "p6@Masten", "p7", GR, "marker", 420))
-stage.append(chip_("KABEL EINZIEHEN · AUFHÄNGEN", "p7@Kabel", "p8", TQD, "glass", 420))
-stage.append(chip_(f'{FLAG_DE}&nbsp;BEI UNS: OFT NEU GRABEN', "p8@gegraben", "p9@Graben", CU, "marker", 420))
-stage.append(el(f'<div class="stamp mono" style="font-size:38px;white-space:nowrap">TIEFBAU: BIS ZU 80 % DER KOSTEN</div>', 80, 400, A("p9@Teuerste", "p10", -0.15), 920, CENTER))
-stage.append(chip_("TRICK 2: KUPFER ABSCHALTEN", "p10@Trick", "p10@ab", TQD, "marker", 1150))
-stage.append(el(f'<div class="stamp mono" style="font-size:44px;white-space:nowrap;color:{CU};border-color:{CU}">KUPFERNETZ AUS</div>', 80, 1120, A("p10@ab", "p11", 0.05), 920, CENTER))
-stage.append(chip_("NUR NOCH GLASFASER", "p12@Glasfaser", "p13", TQD, "success", 1150))
-stage.append(chip_("KUPFER AUFGEMOTZT (VECTORING)", "p13@aufgemotzt", "p13@Viele", CU, "marker", 1150, 30, -0.3))
-stage.append(chip_("„REICHT DOCH …“", "p13@Viele", "p14", GR, "plop", 1150, 34))
-stage.append(chip_("▲ +9 PROZENTPUNKTE IN 1 JAHR", "p16@holen", "p17", TQD, "success", 1178))
-stage.append(card(f'<div class="col" style="gap:18px;height:100%;justify-content:center"><div class="mono small grey">UND BEI DIR?</div>'
-                  f'<div class="row" style="gap:20px"><div class="chip tq mono" style="font-size:34px">GLASFASER</div><div class="chip mono" style="font-size:34px;border-color:{CU};color:{CU}">KUPFER</div></div>'
-                  f'<div class="mono" style="font-size:20px;color:#7B3FE4">SCHREIB\'S IN DIE KOMMENTARE</div></div>',
-                  130, 330, 820, 240, "activeTQ", A("p17", "end", -0.1)))
+stage.append(chip_(f'{FLAG_FR}&nbsp;?? %&nbsp;&nbsp;<span style="color:#8A8F99">vs.</span>&nbsp;&nbsp;{FLAG_DE}&nbsp;?? %&nbsp;&nbsp;<span style="font-size:22px;color:#8A8F99">AM ENDE</span>', "p3@Vorsprung", "p4@Erstens", GR, "glass", 1130, 36))
+stage.append(chip_("1 · KAUM GRABEN", "p4@Erstens", "p5@Teuerste", TQD, "marker", 420, 34))
+stage.append(el(f'<div class="stamp mono" style="font-size:38px;white-space:nowrap">GRABEN: BIS ZU 80 % DER KOSTEN</div>', 80, 400, A("p5@Teuerste", "p6@Telefonrohre", -0.15), 920, CENTER))
+stage.append(chip_("KABEL DURCH ALTE TELEFONROHRE", "p6@Telefonrohre", "p7@Masten", TQD, "marker", 420))
+stage.append(chip_("… ODER AN MASTEN", "p7@Masten", "p8", TQD, "marker", 420, 34))
+stage.append(chip_(f'{FLAG_DE}&nbsp;KAUM KABEL AN MASTEN', "p8@selten", "p8@Rohren", CU, "marker", 420))
+stage.append(chip_(f'{FLAG_DE}&nbsp;ALTE ROHRE: OFT KEIN PLATZ', "p8@Rohren", "p9", CU, "marker", 420))
+stage.append(chip_(f'{FLAG_DE}&nbsp;ALSO: NEU GRABEN', "p9@neu", "p10", CU, "marker", 420, 34))
+stage.append(chip_("2 · KUPFER ABSCHALTEN", "p10@Zweitens", "p10@schaltet", TQD, "marker", 1150, 34))
+stage.append(el(f'<div class="stamp mono" style="font-size:44px;white-space:nowrap;color:{CU};border-color:{CU}">KUPFERNETZ AUS</div>', 80, 1120, A("p10@schaltet", "p10@zweitausenddreißig", 0.05), 920, CENTER))
+stage.append(chip_("DANN NUR NOCH GLASFASER", "p11@Glasfaser", "p12", TQD, "success", 1150))
+# Verteilerkasten (eigene Zeichnung): Glasfaser bis zum Kasten, Kupfer bis ins Haus, neues Modul fährt ein
+KAST = (f'<svg viewBox="0 0 820 300" width="820" height="300">'
+        f'<path d="M20 150 H300" stroke="{TQ}" stroke-width="10" stroke-linecap="round"/><text x="40" y="128" font-family="JBM" font-weight="800" font-size="24" fill="{TQD}">GLASFASER</text>'
+        f'<rect x="300" y="40" width="190" height="230" rx="12" fill="#C9CCD3" stroke="#2B2D35" stroke-width="4"/><rect x="312" y="52" width="166" height="206" rx="6" fill="#E4E6EB" stroke="#7A7F8C" stroke-width="2"/>'
+        f'<g id="kmod"><rect x="335" y="95" width="120" height="70" rx="8" fill="{PUR}" stroke="#4A1FA0" stroke-width="3"/><text x="395" y="138" text-anchor="middle" font-family="JBM" font-weight="800" font-size="22" fill="#fff">NEU</text></g>'
+        f'<text x="395" y="235" text-anchor="middle" font-family="JBM" font-weight="800" font-size="20" fill="#3F434C">GRAUER KASTEN</text>'
+        f'<path d="M490 150 H690" stroke="{CU}" stroke-width="8" stroke-linecap="round" stroke-dasharray="2 14"/><text x="520" y="128" font-family="JBM" font-weight="800" font-size="24" fill="{CU}">KUPFER</text>'
+        f'<path d="M700 175 L745 135 L790 175 V250 H700 Z" fill="#FCFCFD" stroke="#2B2D35" stroke-width="4" stroke-linejoin="round"/><path d="M700 175 L745 135 L790 175" fill="none" stroke="{PUR}" stroke-width="5"/>'
+        f'<path id="kspeed" d="M520 190 h40 m-12 -10 l12 10 l-12 10 M590 190 h40 m-12 -10 l12 10 l-12 10" stroke="{CU}" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+stage.append(card(f'<div class="col" style="gap:6px"><div class="mono small grey">KUPFER WURDE SCHNELLER GEMACHT</div>{KAST}</div>', 90, 560, 900, 400, "", A("p12", "p13", 0.1)))
+BARS = (f'<div class="col" style="gap:22px;align-items:stretch;width:100%">'
+        f'<div class="mono small grey" style="text-align:center">GESCHWINDIGKEIT (SCHEMATISCH)</div>'
+        f'<div><div class="mono" style="font-size:26px;font-weight:800;color:{CU}">KUPFER (NEUE TECHNIK) · BIS 250 MBIT/S</div><div class="hbar"><div class="gbar2" id="bcu" style="width:20%;background:{CU}"></div></div></div>'
+        f'<div><div class="mono" style="font-size:26px;font-weight:800;color:{TQD}">GLASFASER · 1.000 MBIT/S UND MEHR</div><div class="hbar"><div class="gbar2" id="bgf" style="width:100%;background:{TQ}"></div></div></div></div>')
+stage.append(card(BARS, 90, 600, 900, 330, "activeTQ", A("p13", "p14", 0.05)))
+def hs(lit): return (f'<svg viewBox="0 0 60 56" width="110" height="102"><path d="M6 26 L30 6 L54 26 V52 H6 Z" fill="#FCFCFD" stroke="#2B2D35" stroke-width="3" stroke-linejoin="round"/>'
+                     f'<path d="M6 26 L30 6 L54 26" fill="none" stroke="{TQ if lit else "#9AA0AA"}" stroke-width="4"/><rect x="24" y="34" width="12" height="18" fill="{TQ if lit else "#E6E7EB"}" stroke="#2B2D35" stroke-width="2.5"/></svg>')
+HOUSES = (f'<div class="col" style="gap:14px"><div class="mono small grey">WO GLASFASER MÖGLICH IST, BESTELLT …</div>'
+          f'<div class="row" style="gap:26px">{hs(True)}{hs(False)}{hs(False)}{hs(False)}</div>'
+          f'<div class="mono" style="font-size:30px;font-weight:800;color:{TQD}">NUR ETWA 1 VON 4</div></div>')
+stage.append(card(HOUSES, 140, 620, 800, 330, "", A("p14", "p16", 0.1)))
+stage.append(chip_("WENIGER KUNDEN → WENIGER AUSBAU", "p15@ohne", "p16", CU, "marker", 1000))
+stage.append(chip_(f'{FLAG_DE}&nbsp;VOR 1 JAHR: 53 % → HEUTE: 62 %', "p19@Jahr", "end", TQD, "success", 1178))
 # dezente Hinweise
-stage.append(el('<div class="note mono">KARTE & GLASFASER-FLÄCHEN SCHEMATISCH</div>', 40, 1252, A("p1", "p4@nicht", -0.6) + ' data-sfx="none"'))
-stage.append(el('<div class="note mono">SZENE SCHEMATISCH</div>', 40, 1252, A("p4@neu", "p10@Frankreich", 0.3) + ' data-sfx="none"'))
-stage.append(el('<div class="note mono">FLÄCHEN SCHEMATISCH</div>', 40, 1252, A("p10@Frankreich", "p15", 0.3) + ' data-sfx="none"'))
-stage.append(el('<div class="note mono">ANTEIL GEBÄUDE MIT GLASFASER-ANSCHLUSSMÖGLICHKEIT · QUELLEN: ARCEP, BREKO · STAND 30.06.2026</div>', 40, 1252, A("p15", "end", 0.2) + ' data-sfx="none"'))
+stage.append(el('<div class="note mono">KARTE & GLASFASER-FLÄCHEN SCHEMATISCH</div>', 40, 1252, A("p1", "p4@Erstens", -0.6) + ' data-sfx="none"'))
+stage.append(el('<div class="note mono">SZENE SCHEMATISCH</div>', 40, 1252, A("p4@kaum", "p10@Frankreich", 0.3) + ' data-sfx="none"'))
+stage.append(el('<div class="note mono">FLÄCHEN SCHEMATISCH · BMBIT/S-ANGABEN: HÖCHSTWERTE</div>'.replace("BMBIT","MBIT"), 40, 1252, A("p10@Frankreich", "p17", 0.3) + ' data-sfx="none"'))
+stage.append(el('<div class="note mono">ANTEIL WOHNUNGEN/BÜROS MIT GLASFASER-ANSCHLUSSMÖGLICHKEIT · QUELLEN: ARCEP, BREKO · STAND 30.06.2026</div>', 40, 1252, A("p17", "end", 0.2) + ' data-sfx="none"'))
 CAMJS = json.dumps(cam)
 
 SCENE_JS = r''' // ---- Bühne ----
@@ -301,50 +322,51 @@ SCENE_JS = r''' // ---- Bühne ----
   // FR-Flächen wachsen, wenn die Route ankommt
   document.querySelectorAll('.cfr').forEach(c=>{ const f=+c.dataset.f; const q=ease(pr(ur,f-0.05,0.14));
     c.setAttribute('r',(+c.dataset.r*q).toFixed(1)); });
-  const pulse=t>TS('p12@Glasfaser',-0.2)&&t<TS('p13',0)?0.5+0.5*Math.sin((t-TS('p12@Glasfaser',-0.2))*2*Math.PI/0.6-Math.PI/2):0;
+  const pulse=t>TS('p11@Glasfaser',-0.2)&&t<TS('p12',0)?0.5+0.5*Math.sin((t-TS('p11@Glasfaser',-0.2))*2*Math.PI/0.6-Math.PI/2):0;
   document.getElementById('frf').style.opacity=0.85+0.15*pulse;
   document.getElementById('frf').firstElementChild.setAttribute('fill',`rgba(25,198,180,${.42+.25*pulse})`);
   // DE-Flächen: erst bei der Auflösung
-  const t62=TS('p15@Deutschland',-0.1);
+  const t62=TS('p18@uns',-0.1);
   document.querySelectorAll('.cde').forEach(c=>{ const q=ease(pr(t,t62+(+c.dataset.f)*0.9,0.5)); c.setAttribute('r',(+c.dataset.r*q).toFixed(1)); });
   // Kupfer
-  const cuw=1.6/z; const boost=pr(t,TS('p13@aufgemotzt',-0.35),0.5)*(1-pr(t,TS('p14',0),0.4));
+  const cuw=1.6/z; const boost=pr(t,TS('p12@Technik',-0.2),0.5)*(1-pr(t,TS('p13',0),0.4));
   document.querySelectorAll('.cude').forEach((e,i)=>{ e.setAttribute('stroke-width',(cuw*(1.6+1.6*boost)).toFixed(4)); e.style.strokeDashoffset=0;
      e.setAttribute('stroke', boost>0.05?`rgb(${Math.round(184+60*boost)},${Math.round(105+40*boost)},46)`:'#B8692E'); });
   document.getElementById('cude_g').style.filter=boost>0.05?`drop-shadow(0 0 ${(6*boost).toFixed(1)}px rgba(242,140,40,.9))`:'none';
-  const off=TS('p10@ab',-0.2);
+  const off=TS('p10@schaltet',0.0);
   document.querySelectorAll('.cufr').forEach((e,i)=>{ const q=ease(pr(t,off+(i%7)*0.07,0.5)); e.style.strokeDashoffset=q; e.setAttribute('stroke-width',(cuw*1.2).toFixed(4)); });
   document.getElementById('cufr_g').style.opacity=0.35;
   // Abdunkeln für die Abschlussfrage
-  document.getElementById('camg').style.opacity=(1-0.55*pr(t,TS('p17',-0.15),0.4))*(1-pr(t,END,0.35));
+  document.getElementById('camg').style.opacity=(1-0.45*pr(t,TS('p12',0.0),0.4)*(1-pr(t,TS('p16',-0.2),0.4)))*(1-pr(t,END,0.35));
   // Straßenszenen
   const gA=pr(z,8,6);
-  const inFR=t<TS('p8@uns',0), inDE=!inFR&&t<TS('p10@Frankreich',0.5);
+  const inFR=t<TS('p8@Kabel',0.0), inDE=!inFR&&t<TS('p10@Frankreich',0.5);
   document.getElementById('st_fr').style.opacity=inFR?gA:0; document.getElementById('st_de').style.opacity=inDE?gA:0;
   const sw=(n)=>n; // Weltbreiten sind fest
   // FR: Leerrohr-Puls, Kabel ziehen, Masten
-  const du=document.getElementById('duct'); const dp=t>TS('p5@Rohre',-0.1)&&t<TS('p6',0)?0.5+0.5*Math.sin((t-TS('p5@Rohre',-0.1))*2*Math.PI/0.5):0;
+  const du=document.getElementById('duct'); const dp=t>TS('p6@Telefonrohre',-0.1)&&t<TS('p6@gezogen',0)?0.5+0.5*Math.sin((t-TS('p6@Telefonrohre',-0.1))*2*Math.PI/0.5):0;
   du.setAttribute('stroke-width',(0.09+0.07*dp).toFixed(3)); du.setAttribute('stroke',dp>0.01?'#5B2BB5':'#7A7F8C');
-  const u1=ease(pr(t,TS('p7@Kabel',-0.1),1.25)), u2=ease(pr(t,TS('p7@Oder',-0.1),1.0));
+  const u1=ease(pr(t,TS('p6@gezogen',-0.3),1.4)), u2=ease(pr(t,TS('p7@Masten',0.25),1.0));
   document.getElementById('dcab').style.strokeDashoffset=1-u1;
   const hx1=PAN.FRX-11+22*u1, hx2=PAN.FRX-11+22*u2;
   // DE: Bagger gräbt
   const dgx=fx+1.3; const tf=cl((dgx-0.7-(PAN.DEX-11))/22,0,1);
-  document.getElementById('trench').style.strokeDashoffset=1-tf;
-  document.getElementById('trench2').style.strokeDashoffset=1-tf;
+  const tvis=t>=TS('p9',-0.2); const tf2=tvis?tf:0;
+  document.getElementById('trench').style.strokeDashoffset=1-tf2;
+  document.getElementById('trench2').style.strokeDashoffset=1-tf2;
   document.getElementById('arm').setAttribute('transform',`rotate(${(14*Math.sin(t*2*Math.PI/0.7)).toFixed(1)} 118 62)`);
   // Pop-ups positionieren
   for(const p of document.querySelectorAll('#plane .pop')){
     const s=p.dataset.s; const on=(s==='fr'&&inFR)||(s==='de'&&inDE);
     let x=+p.dataset.x, y=+p.dataset.y, w=(+p.dataset.w)*z, hgt=w*(+p.dataset.r);
     let a=bo2(pr(k,0.35+(+p.dataset.d)*0.6,0.35));
-    if(p.classList.contains('pole')){ const x0=+p.dataset.x0; a=bo2(pr(t,TS('p6@Masten',-0.25)+(x0-PAN.FRX+10)*0.02,0.4))*(k>0.5?1:0); p.querySelector('.acab').style.strokeDashoffset=1-cl((hx2-x0)/2.4,0,1); }
-    if(p.id==='digger'){ x=dgx; a=bo2(pr(t,TS('p8@neu',-0.35),0.35)); }
-    if(p.classList.contains('dirt')){ a=bo2(cl((dgx-x-1.0)/0.6,0,1)); }
+    if(p.classList.contains('pole')){ const x0=+p.dataset.x0; a=bo2(pr(t,TS('p7@Masten',-0.25)+(x0-PAN.FRX+10)*0.02,0.4))*(k>0.5?1:0); p.querySelector('.acab').style.strokeDashoffset=1-cl((hx2-x0)/2.4,0,1); }
+    if(p.id==='digger'){ x=dgx; a=bo2(pr(t,TS('p9',-0.2),0.35)); }
+    if(p.classList.contains('dirt')){ a=tvis?bo2(cl((dgx-x-1.0)/0.6,0,1)):0; }
     let flatp=false;
-    if(p.id==='orbD'){ x=hx1; y=PAN.FRY+0.28; a=(t>TS('p7@Kabel',-0.1)&&u1<0.999)?1:0; hgt=w; flatp=true; }
+    if(p.id==='orbD'){ x=hx1; y=PAN.FRY+0.28; a=(t>TS('p6@gezogen',-0.3)&&u1<0.999)?1:0; hgt=w; flatp=true; }
     if(p.id==='orbA'){ x=hx2; const sp=((((hx2-(PAN.FRX-10))/2.4)%1)+1)%1; const yy=22+60*sp*(1-sp);
-       y=PAN.FRY-0.82; hgt=((160-yy)/100+(+p.dataset.w)*0.5)*z; a=(t>TS('p7@Oder',-0.1)&&u2<0.999)?1:0; }
+       y=PAN.FRY-0.82; hgt=((160-yy)/100+(+p.dataset.w)*0.5)*z; a=(t>TS('p7@Masten',0.25)&&u2<0.999)?1:0; }
     const [px,py]=pj(x,y);
     p.style.width=w+'px'; p.style.height=hgt+'px';
     const isOrb=p.id==='orbD'||p.id==='orbA';
@@ -358,7 +380,13 @@ SCENE_JS = r''' // ---- Bühne ----
   document.getElementById('geol').style.opacity=flat*(1-pr(t,END,0.3));
   for(const g of document.querySelectorAll('.geo')){ const sx=FX0+(+g.dataset.x-fx)*z, sy=FY0+(+g.dataset.y-fy)*z; g.style.left=sx+'px'; g.style.top=sy+'px'; }
   // 2030-Zähler
-  document.getElementById('y30').textContent=2023+Math.round(7*ease(pr(t,TS('p11@zweitausenddreißig',-0.1),0.9)));
+  { const dd=document.getElementById('ductde'); const q=t>TS('p8@Rohren',-0.1)&&t<TS('p9',0)?0.5+0.5*Math.sin((t-TS('p8@Rohren',-0.1))*2*Math.PI/0.5-Math.PI/2):0; dd.setAttribute('stroke-opacity',(0.55*q).toFixed(2)); }
+  document.getElementById('kmod').setAttribute('transform',`translate(0,${(-170*(1-ease(pr(t,TS('p12@Technik',-0.15),0.45)))).toFixed(1)})`);
+  document.getElementById('kmod').style.opacity=pr(t,TS('p12@Technik',-0.15),0.15);
+  document.getElementById('kspeed').style.opacity=pr(t,TS('p12@schneller',-0.1),0.3)*(0.6+0.4*Math.sin(t*12));
+  document.getElementById('bcu').style.width=(20*ease(pr(t,TS('p13',0.1),0.6)))+'%';
+  document.getElementById('bgf').style.width=(100*ease(pr(t,TS('p13@Vielfaches',-0.3),0.9)))+'%';
+  document.getElementById('y30').textContent=2023+Math.round(7*ease(pr(t,TS('p10@zweitausenddreißig',-0.1),0.9)));
   // Roboter-Position (Hook rechts unten, CTA wie Template)
   document.getElementById('robot').style.left=(t>=END?40:700)+'px';
   document.getElementById('headbg').style.opacity=1-pr(t,TS('p4',-0.15),0.3);

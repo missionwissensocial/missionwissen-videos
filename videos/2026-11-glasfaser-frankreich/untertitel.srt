@@ -1,139 +1,219 @@
 1
-00:00:00,000 --> 00:00:01,231
-Frankreich hat fast überall
+00:00:00,000 --> 00:00:01,046
+In Frankreich kann fast
 
 2
-00:00:01,231 --> 00:00:01,972
-Glasfaser.
+00:00:01,046 --> 00:00:02,686
+jede Wohnung Glasfaser bekommen
 
 3
-00:00:02,092 --> 00:00:03,200
-Und du? Wahrscheinlich noch
+00:00:02,686 --> 00:00:04,000
+also superschnelles Internet bis
 
 4
-00:00:03,200 --> 00:00:03,757
-Kupfer.
+00:00:04,000 --> 00:00:04,802
+ins Haus.
 
 5
-00:00:03,876 --> 00:00:04,862
-Wie schaffen die Nachbarn
+00:00:04,923 --> 00:00:05,599
+Bei uns läuft das
 
 6
-00:00:04,862 --> 00:00:05,846
-das? Die Zahl am
+00:00:05,599 --> 00:00:06,400
+Internet meist noch über
 
 7
-00:00:05,846 --> 00:00:06,772
-Ende tut weh.
+00:00:06,400 --> 00:00:07,508
+die alte Telefonleitung aus
 
 8
-00:00:06,892 --> 00:00:08,000
-Der Trick: nicht neu
+00:00:07,508 --> 00:00:08,310
+Kupfer.
 
 9
-00:00:08,000 --> 00:00:09,445
-graben. Frankreich nutzt, was
+00:00:08,430 --> 00:00:09,569
+Wie groß Frankreichs Vorsprung
 
 10
-00:00:09,445 --> 00:00:10,157
-schon da ist.
+00:00:09,569 --> 00:00:10,276
+ist, zeige ich dir
 
 11
-00:00:10,276 --> 00:00:11,076
-Alte Rohre unter der
+00:00:10,276 --> 00:00:11,141
+am Ende.
 
 12
-00:00:11,076 --> 00:00:11,634
-Straße.
+00:00:11,262 --> 00:00:12,800
+Wie schafft Frankreich das?
 
 13
-00:00:11,753 --> 00:00:13,048
-Und Masten am Straßenrand.
+00:00:12,800 --> 00:00:14,214
+Erstens: Dort wird kaum
 
 14
-00:00:13,169 --> 00:00:14,031
-Das Kabel wird einfach
+00:00:14,214 --> 00:00:14,894
+gegraben.
 
 15
-00:00:14,031 --> 00:00:15,756
-durchgezogen. Oder aufgehängt.
+00:00:15,015 --> 00:00:15,877
+Denn Graben ist beim
 
 16
-00:00:15,877 --> 00:00:16,841
-Und bei uns? Oft
+00:00:15,877 --> 00:00:17,048
+Ausbau das Teuerste.
 
 17
-00:00:16,841 --> 00:00:17,788
-wird neu gegraben.
+00:00:17,169 --> 00:00:18,030
+Das neue Kabel wird
 
 18
-00:00:17,908 --> 00:00:19,138
-Der Haken? Graben ist
+00:00:18,030 --> 00:00:19,385
+durch alte Telefonrohre unter
 
 19
-00:00:19,138 --> 00:00:20,065
-das Teuerste.
+00:00:19,385 --> 00:00:20,495
+der Straße gezogen
 
 20
-00:00:20,184 --> 00:00:21,661
-Trick Nummer zwei: Frankreich
+00:00:20,614 --> 00:00:22,094
+oder an Masten aufgehängt.
 
 21
-00:00:21,661 --> 00:00:22,833
-schaltet das Kupfernetz ab.
+00:00:22,214 --> 00:00:23,015
+Bei uns hängen Kabel
 
 22
-00:00:22,954 --> 00:00:24,368
-Bis zweitausenddreißig ist Schluss
+00:00:23,015 --> 00:00:24,123
+nur selten an Masten,
 
 23
-00:00:24,368 --> 00:00:25,111
-mit DSL.
+00:00:24,123 --> 00:00:24,954
+und in alten Rohren
 
 24
-00:00:25,231 --> 00:00:26,277
-Wer Internet will, braucht
+00:00:24,954 --> 00:00:25,600
+ist oft kein Platz
 
 25
-00:00:26,277 --> 00:00:27,018
-Glasfaser.
+00:00:25,600 --> 00:00:25,972
+mehr.
 
 26
-00:00:27,138 --> 00:00:27,815
-Bei uns wurde das
+00:00:26,091 --> 00:00:27,015
+Also wird meist neu
 
 27
-00:00:27,815 --> 00:00:29,661
-Kupfer aufgemotzt. Viele denken:
+00:00:27,015 --> 00:00:27,879
+gegraben.
 
 28
-00:00:29,661 --> 00:00:30,217
-reicht doch.
+00:00:28,000 --> 00:00:29,661
+Zweitens: Frankreich schaltet die
 
 29
-00:00:30,338 --> 00:00:31,079
-Das Ergebnis?
+00:00:29,661 --> 00:00:31,507
+alte Kupferleitung bis zweitausenddreißig
 
 30
-00:00:31,199 --> 00:00:33,722
-Frankreich: fünfundneunzig Prozent. Deutschland:
+00:00:31,507 --> 00:00:31,942
+ab.
 
 31
-00:00:33,722 --> 00:00:34,771
-zweiundsechzig Prozent.
+00:00:32,061 --> 00:00:32,831
+Wer dann zu Hause
 
 32
-00:00:34,892 --> 00:00:36,122
-Immerhin: Wir holen gerade
+00:00:32,831 --> 00:00:34,588
+Internet will, braucht Glasfaser.
 
 33
-00:00:36,122 --> 00:00:36,557
-auf.
+00:00:34,707 --> 00:00:35,323
+Bei uns wurde die
 
 34
-00:00:36,676 --> 00:00:37,200
-Wie ist es bei
+00:00:35,323 --> 00:00:37,189
+Kupferleitung stattdessen schneller gemacht
 
 35
-00:00:37,200 --> 00:00:37,512
-dir?
+00:00:37,189 --> 00:00:37,969
+mit neuer Technik in
+
+36
+00:00:37,969 --> 00:00:38,768
+den grauen Kästen am
+
+37
+00:00:38,768 --> 00:00:39,695
+Straßenrand.
+
+38
+00:00:39,814 --> 00:00:40,862
+Glasfaser schafft zwar ein
+
+39
+00:00:40,862 --> 00:00:41,603
+Vielfaches.
+
+40
+00:00:41,722 --> 00:00:42,585
+Aber vielen reicht das
+
+41
+00:00:42,585 --> 00:00:43,877
+Kupfer sie bestellen keinen
+
+42
+00:00:43,877 --> 00:00:45,445
+Glasfaseranschluss, selbst wenn er
+
+43
+00:00:45,445 --> 00:00:46,094
+möglich ist.
+
+44
+00:00:46,215 --> 00:00:47,262
+Und ohne Kunden lohnt
+
+45
+00:00:47,262 --> 00:00:47,908
+sich der Ausbau für
+
+46
+00:00:47,908 --> 00:00:49,110
+die Anbieter weniger.
+
+47
+00:00:49,231 --> 00:00:50,033
+Das Ergebnis:
+
+48
+00:00:50,154 --> 00:00:51,445
+In Frankreich liegt Glasfaser
+
+49
+00:00:51,445 --> 00:00:52,799
+für fünfundneunzig Prozent aller
+
+50
+00:00:52,799 --> 00:00:54,156
+Wohnungen und Büros bereit.
+
+51
+00:00:54,277 --> 00:00:55,107
+Bei uns erst für
+
+52
+00:00:55,107 --> 00:00:56,310
+zweiundsechzig Prozent.
+
+53
+00:00:56,430 --> 00:00:57,661
+Immerhin: Vor einem Jahr
+
+54
+00:00:57,661 --> 00:00:58,277
+waren es bei uns
+
+55
+00:00:58,277 --> 00:00:59,689
+erst dreiundfünfzig Prozent.
