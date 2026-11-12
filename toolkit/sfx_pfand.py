@@ -248,6 +248,14 @@ for e in ev:
     t, tag = e[0], e[4]
     if t - last.get(tag, -9) < gap.get(tag, 0): continue
     last[tag] = t; keep.append(e)
+# Auto-Gate Dauerton (Alex, 12.11.2026): nie ein anhaltendes Surren/Brummen/Rauschen im Video.
+# Kein einzelner Sound darf länger als MAX_SFX_S klingen (Motor, Brummen, hum, drone, drill,
+# groan, rumble, sizzle, Wind …). Lange Bewegungen nur mit wiederholten kurzen Akzenten
+# (Klicks, Ticks, kurze Whooshes, Impacts) vertonen.
+MAX_SFX_S = 1.5
+_long = [(round(e[0], 2), e[4], round(len(e[1]) / SR, 2)) for e in keep if len(e[1]) / SR > MAX_SFX_S]
+if _long:
+    raise SystemExit(f"SFX-GATE Dauerton: Sounds > {MAX_SFX_S}s gefunden (t, tag, dauer): {_long} – kürzen/zerlegen, nicht posten.")
 n = int((total + 1.5) * SR); L = np.zeros(n); Rc = np.zeros(n)
 for t, x, v, pan, tag in keep:
     i = int(max(0, t) * SR)
