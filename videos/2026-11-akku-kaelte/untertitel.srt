@@ -1,0 +1,151 @@
+1
+00:00:00,000 --> 00:00:01,108
+Warum geht dein Handy-Akku
+
+2
+00:00:01,108 --> 00:00:01,784
+in der Kälte so
+
+3
+00:00:01,784 --> 00:00:02,710
+schnell leer?
+
+4
+00:00:02,831 --> 00:00:03,938
+Im Akku wandern winzige
+
+5
+00:00:03,938 --> 00:00:05,168
+Teilchen hin und her:
+
+6
+00:00:05,168 --> 00:00:06,280
+Lithium-Ionen.
+
+7
+00:00:06,400 --> 00:00:07,261
+Nur wenn sie wandern,
+
+8
+00:00:07,261 --> 00:00:08,494
+bekommt dein Handy Strom.
+
+9
+00:00:08,615 --> 00:00:09,353
+Dabei schwimmen sie durch
+
+10
+00:00:09,353 --> 00:00:10,342
+eine Flüssigkeit.
+
+11
+00:00:10,461 --> 00:00:11,262
+Bei Kälte wird diese
+
+12
+00:00:11,262 --> 00:00:12,615
+Flüssigkeit zäh, fast wie
+
+13
+00:00:12,615 --> 00:00:13,172
+Honig.
+
+14
+00:00:13,291 --> 00:00:14,092
+Die Teilchen kommen nur
+
+15
+00:00:14,092 --> 00:00:15,018
+noch langsam voran.
+
+16
+00:00:15,137 --> 00:00:15,756
+Die Folge?
+
+17
+00:00:15,877 --> 00:00:17,169
+Die Spannung sinkt also
+
+18
+00:00:17,169 --> 00:00:17,785
+der Druck, der den
+
+19
+00:00:17,785 --> 00:00:18,894
+Strom ins Handy schiebt.
+
+20
+00:00:19,015 --> 00:00:19,937
+An dieser Spannung schätzt
+
+21
+00:00:19,937 --> 00:00:20,987
+das Handy die Prozente.
+
+22
+00:00:21,108 --> 00:00:22,277
+Es zeigt weniger an
+
+23
+00:00:22,277 --> 00:00:23,169
+oder schaltet ab, weil
+
+24
+00:00:23,169 --> 00:00:24,065
+der Druck nicht reicht.
+
+25
+00:00:24,184 --> 00:00:24,984
+Dabei ist noch Energie
+
+26
+00:00:24,984 --> 00:00:25,480
+drin.
+
+27
+00:00:25,600 --> 00:00:26,338
+Wird der Akku wieder
+
+28
+00:00:26,338 --> 00:00:27,262
+warm, kommen die Prozente
+
+29
+00:00:27,262 --> 00:00:27,757
+zurück.
+
+30
+00:00:27,876 --> 00:00:29,169
+Im Winter also: Handy
+
+31
+00:00:29,169 --> 00:00:30,033
+in die Innentasche.
+
+32
+00:00:30,153 --> 00:00:30,932
+Und lade es erst,
+
+33
+00:00:30,932 --> 00:00:31,631
+wenn es wieder warm
+
+34
+00:00:31,631 --> 00:00:31,942
+ist.
+
+35
+00:00:32,061 --> 00:00:32,862
+Sonst stauen sich die
+
+36
+00:00:32,862 --> 00:00:34,030
+langsamen Teilchen und bleiben
+
+37
+00:00:34,030 --> 00:00:35,414
+kleben der Akku speichert
+
+38
+00:00:35,414 --> 00:00:36,362
+dauerhaft weniger.
