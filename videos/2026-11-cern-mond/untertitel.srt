@@ -1,0 +1,307 @@
+1
+00:00:00,000 --> 00:00:00,985
+Die größte Maschine der
+
+2
+00:00:00,985 --> 00:00:02,000
+Welt wird vom Mond
+
+3
+00:00:02,000 --> 00:00:02,588
+gedehnt.
+
+4
+00:00:02,708 --> 00:00:03,942
+Wie kann das sein?
+
+5
+00:00:04,062 --> 00:00:04,862
+Die Maschine ist ein
+
+6
+00:00:04,862 --> 00:00:06,953
+Ring, 27 Kilometer lang,
+
+7
+00:00:06,953 --> 00:00:08,031
+rund 100 Meter unter
+
+8
+00:00:08,031 --> 00:00:08,772
+der Erde.
+
+9
+00:00:08,891 --> 00:00:09,353
+Er liegt an der
+
+10
+00:00:09,353 --> 00:00:10,337
+Grenze zwischen der Schweiz
+
+11
+00:00:10,337 --> 00:00:12,061
+und Frankreich, am Forschungszentrum
+
+12
+00:00:12,061 --> 00:00:12,742
+CERN.
+
+13
+00:00:12,862 --> 00:00:14,433
+Es ist ein Teilchenbeschleuniger.
+
+14
+00:00:14,554 --> 00:00:15,938
+Er bringt Protonen, winzige
+
+15
+00:00:15,938 --> 00:00:17,477
+Bausteine von Atomen, fast
+
+16
+00:00:17,477 --> 00:00:18,803
+auf Lichtgeschwindigkeit.
+
+17
+00:00:18,922 --> 00:00:20,091
+Über 11.000 Mal pro
+
+18
+00:00:20,091 --> 00:00:21,292
+Sekunde fliegen sie einmal
+
+19
+00:00:21,292 --> 00:00:22,402
+ganz um den Ring.
+
+20
+00:00:22,522 --> 00:00:22,954
+Damit sie in der
+
+21
+00:00:22,954 --> 00:00:24,338
+Kurve bleiben, lenken über
+
+22
+00:00:24,338 --> 00:00:26,710
+1.200 riesige Magnete sie.
+
+23
+00:00:26,830 --> 00:00:27,754
+Diese Magnete werden auf
+
+24
+00:00:27,754 --> 00:00:30,062
+minus 271 Grad gekühlt,
+
+25
+00:00:30,062 --> 00:00:31,356
+kälter als im Weltall.
+
+26
+00:00:31,477 --> 00:00:32,185
+Nur so fließt der
+
+27
+00:00:32,185 --> 00:00:33,045
+Strom in ihnen ohne
+
+28
+00:00:33,045 --> 00:00:34,368
+Verlust, und sie werden
+
+29
+00:00:34,368 --> 00:00:35,265
+stark genug.
+
+30
+00:00:35,384 --> 00:00:36,799
+Zwei Teilchenstrahlen rasen in
+
+31
+00:00:36,799 --> 00:00:38,094
+entgegengesetzte Richtungen.
+
+32
+00:00:38,215 --> 00:00:39,076
+An vier Stellen lässt
+
+33
+00:00:39,076 --> 00:00:40,679
+man sie frontal zusammenprallen.
+
+34
+00:00:40,799 --> 00:00:41,476
+Aus der Wucht des
+
+35
+00:00:41,476 --> 00:00:42,831
+Aufpralls entstehen für einen
+
+36
+00:00:42,831 --> 00:00:44,122
+winzigen Moment ganz neue
+
+37
+00:00:44,122 --> 00:00:44,865
+Teilchen.
+
+38
+00:00:44,984 --> 00:00:46,523
+So wollen Forscher herausfinden,
+
+39
+00:00:46,523 --> 00:00:48,003
+woraus unsere Welt besteht.
+
+40
+00:00:48,122 --> 00:00:49,414
+2012 haben sie so
+
+41
+00:00:49,414 --> 00:00:51,511
+das berühmte Higgs-Teilchen entdeckt.
+
+42
+00:00:51,631 --> 00:00:52,679
+Und der Mond?
+
+43
+00:00:52,799 --> 00:00:53,414
+Er zieht nicht nur
+
+44
+00:00:53,414 --> 00:00:54,462
+am Meer, sondern auch
+
+45
+00:00:54,462 --> 00:00:55,511
+am festen Boden.
+
+46
+00:00:55,631 --> 00:00:56,462
+Der Boden wölbt sich
+
+47
+00:00:56,462 --> 00:00:57,168
+dabei um bis zu
+
+48
+00:00:57,168 --> 00:00:58,649
+25 Zentimeter.
+
+49
+00:00:58,768 --> 00:00:59,569
+Der Ring wölbt sich
+
+50
+00:00:59,569 --> 00:01:00,430
+mit und wird dabei
+
+51
+00:01:00,430 --> 00:01:01,969
+gedehnt und wieder gestaucht,
+
+52
+00:01:01,969 --> 00:01:03,448
+um etwa einen Millimeter.
+
+53
+00:01:03,569 --> 00:01:04,495
+Klingt nach nichts.
+
+54
+00:01:04,614 --> 00:01:05,599
+Aber die Magnete rücken
+
+55
+00:01:05,599 --> 00:01:06,799
+dadurch ein winziges Stück
+
+56
+00:01:06,799 --> 00:01:07,510
+auseinander.
+
+57
+00:01:07,631 --> 00:01:08,614
+Die Teilchen fliegen nicht
+
+58
+00:01:08,614 --> 00:01:09,908
+mehr genau mittig hindurch,
+
+59
+00:01:09,908 --> 00:01:10,933
+und ihre Energie ändert
+
+60
+00:01:10,933 --> 00:01:12,248
+sich ein kleines bisschen.
+
+61
+00:01:12,368 --> 00:01:13,168
+Die Forscher müssen aber
+
+62
+00:01:13,168 --> 00:01:14,215
+genau wissen, mit welcher
+
+63
+00:01:14,215 --> 00:01:15,694
+Wucht die Teilchen zusammenprallen.
+
+64
+00:01:15,814 --> 00:01:16,737
+Deshalb wird die Maschine
+
+65
+00:01:16,737 --> 00:01:18,153
+laufend nachgeregelt, damit die
+
+66
+00:01:18,153 --> 00:01:18,953
+Teilchen in der Mitte
+
+67
+00:01:18,953 --> 00:01:19,634
+bleiben.
+
+68
+00:01:19,754 --> 00:01:21,046
+Übrigens: Als der Ring
+
+69
+00:01:21,046 --> 00:01:22,891
+2008 startete, hatten viele
+
+70
+00:01:22,891 --> 00:01:23,662
+Angst, er könnte ein
+
+71
+00:01:23,662 --> 00:01:24,926
+schwarzes Loch erzeugen.
+
+72
+00:01:25,046 --> 00:01:25,876
+Doch aus dem Weltall
+
+73
+00:01:25,876 --> 00:01:27,200
+prasseln seit Milliarden Jahren
+
+74
+00:01:27,200 --> 00:01:28,185
+Teilchen mit noch mehr
+
+75
+00:01:28,185 --> 00:01:29,111
+Wucht auf die Erde.
+
+76
+00:01:29,230 --> 00:01:30,153
+Und die Erde gibt
+
+77
+00:01:30,153 --> 00:01:30,802
+es immer noch.
